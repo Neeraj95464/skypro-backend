@@ -32,10 +32,8 @@ public class AuthenticationController {
 
     @Autowired
     private MyUserDetailsService myUserDetailsService;
-
     @Autowired
     private JwtUtil jwtTokenUtil;
-
     @Autowired
     private MyUserRepository repository;
 
